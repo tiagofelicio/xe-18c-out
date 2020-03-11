@@ -4,8 +4,9 @@
 
 1. [Requirements](#1-requirements)
 1. [Install](#2-build-image)
-    - [Linux](#linux)
-    - [Windows](#windows)
+    1. [Oracle 18c Express Edition on Docker](#21-oracle-18c-express-edition-on-docker)
+        - [Linux](#linux)
+        - [Windows](#windows)
 1. [Run Container](#run-container)
 1. [Container Commands](#container-commands)
 
@@ -18,7 +19,9 @@
 
 ## 2. Install
 
-### Linux
+### 2.1. Oracle 18c Express Edition on Docker
+
+#### Linux
 ```bash
 # create work directory
 mkdir ~/.oracle
@@ -46,7 +49,7 @@ docker create --name oracle-18.4.0-xe \
 oracle/database:18.4.0-xe
 ```
 
-### Windows
+#### Windows
 ```bat
 # go to user home directory
 cd /d %USERPROFILE%

@@ -1,4 +1,4 @@
-# Oracle 18c Express Edition + Oracle Unified Toolkit on Docker
+# Oracle 18c Express Edition on Docker + Unified Toolkit for Oracle
 
 <!-- TOC depthFrom:2 -->
 
@@ -6,7 +6,7 @@
 2. [Install Oracle 18c Express Edition on Docker](#2-install-oracle-18c-express-edition-on-docker)
     - [Linux](#linux)
     - [Windows](#windows)
-3. [Install Oracle Unified Toolkit](#3-install-oracle-unified-toolkit)
+3. [Install Unified Toolkit for Oracle](#3-install-unified-toolkit-for-oracle)
 4. [Run Container](#run-container)
 5. [Container Commands](#container-commands)
 
@@ -63,7 +63,7 @@ cd /d %USERPROFILE%
 rmdir docker-images /s /q
 ```
 
-## 3. Install Oracle Unified Toolkit
+## 3. Install Unified Toolkit for Oracle
 
 ## Run Container
 

@@ -73,6 +73,8 @@ rmdir docker-images /s /q
 ```bash
 # remove container
 docker rm oracle-18.4.0-xe
+# remove oracle/database:18.4.0-xe image
+docker rmi $(docker images oracle/database:18.4.0-xe -q)
 ```
 
 #### Windows

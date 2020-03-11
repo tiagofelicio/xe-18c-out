@@ -7,6 +7,8 @@
     - [Linux](#linux)
     - [Windows](#windows)
 3. [Uninstall](#3-uninstall)
+    - [Linux](#linux-1)
+    - [Windows](#windows-1)
 4. [Notes](#4-notes)
 5. [Run Container](#run-container)
 6. [Container Commands](#container-commands)
@@ -66,7 +68,19 @@ rmdir docker-images /s /q
 
 ## 3. Uninstall
 
-TODO
+#### Linux
+
+```bash
+# remove container
+docker rm oracle-18.4.0-xe
+```
+
+#### Windows
+
+```bat
+REM remove container
+docker rm oracle-18.4.0-xe
+```
 
 ## 4. Notes
 

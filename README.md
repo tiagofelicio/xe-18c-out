@@ -3,7 +3,7 @@
 <!-- TOC depthFrom:2 -->
 
 1. [Requirements](#1-requirements)
-1. [Build Image](#2-build-image)
+1. [Install](#2-build-image)
     - [Linux](#linux)
     - [Windows](#windows)
 1. [Run Container](#run-container)
@@ -16,7 +16,7 @@
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 - [Git](https://git-scm.com/downloads)
 
-## 2. Build Image
+## 2. Install
 
 ### Linux
 ```bash

@@ -11,8 +11,8 @@
 
 ## Prerequisites
 
-1. [Download](https://www.docker.com/products/docker-desktop) and install Docker Desktop.
-1. [Download](https://git-scm.com/downloads) and install Git.
+1. [Docker Desktop](https://www.docker.com/products/docker-desktop)
+1. [Git](https://git-scm.com/downloads)
 
 ## Build Image
 

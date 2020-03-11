@@ -54,6 +54,10 @@ git clone https://github.com/oracle/docker-images.git
 cd docker-images/OracleDatabase/SingleInstance/dockerfiles
 # check https://github.com/oracle/docker-images/blob/master/OracleDatabase/SingleInstance/README.md for more info
 "D:\Program Files\Git\bin\bash.exe" --login -i -c "./buildDockerImage.sh -v 18.4.0 -x"
+# go to user home directory
+cd /d %USERPROFILE%
+# remove oracle docker images folder
+rmdir docker-images /s /q
 ```
 
 ## Run Container

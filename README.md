@@ -2,19 +2,19 @@
 
 <!-- TOC depthFrom:1 -->
 
-- [1. Prerequisites](#prerequisites)
-- [2. Build Image](#build-image)
+- [1. Prerequisites](#1.-prerequisites)
+- [2. Build Image](#2.-build-image)
 - [3. Run Container](#run-container)
 - [4. Container Commands](#container-commands)
 
 <!-- /TOC -->
 
-## Prerequisites
+## 1. Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 - [Git](https://git-scm.com/downloads)
 
-## Build Image
+## 2. Build Image
 
 #### Linux
 ```bash

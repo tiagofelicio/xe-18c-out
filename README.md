@@ -7,6 +7,8 @@
     - [Linux](#linux)
     - [Windows](#windows)
 3. [Install Unified Toolkit for Oracle](#3-install-unified-toolkit-for-oracle)
+    - [Linux](#linux-1)
+    - [Windows](#windows-1)
 4. [Run Container](#run-container)
 5. [Container Commands](#container-commands)
 
@@ -66,6 +68,18 @@ rmdir docker-images /s /q
 ## 3. Install Unified Toolkit for Oracle
 
 **Note:** The conansdna
+
+#### Linux
+```bash
+# create work directory
+TODO
+```
+
+#### Windows
+```bat
+REM go to user home directory
+TODO
+```
 
 ## Run Container
 

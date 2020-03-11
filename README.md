@@ -53,7 +53,7 @@ git clone https://github.com/oracle/docker-images.git
 # go to oracle single instance docker files directory
 cd docker-images/OracleDatabase/SingleInstance/dockerfiles
 # check https://github.com/oracle/docker-images/blob/master/OracleDatabase/SingleInstance/README.md for more info
-
+"D:\Program Files\Git\bin\bash.exe" --login -i -c "./buildDockerImage.sh -v 18.4.0 -x"
 ```
 
 ## Run Container

@@ -1,6 +1,6 @@
 # Oracle 18c Express Edition + Oracle Unified Toolkit on Docker
 
-<!-- TOC depthFrom:2 -->
+<!-- TOC depthFrom:3 -->
 
 1. [Requirements](#1-requirements)
 1. [Install](#2-install)

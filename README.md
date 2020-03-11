@@ -18,6 +18,8 @@
 
 #### Linux
 ```bash
+cd ~
+
 git clone https://github.com/tiagofelicio/xe-18c-out.git
 cd xe-18c-out
 

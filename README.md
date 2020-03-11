@@ -11,8 +11,8 @@
 
 ## Prerequisites
 
-1. [Docker Desktop](https://www.docker.com/products/docker-desktop)
-1. [Git](https://git-scm.com/downloads)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- [Git](https://git-scm.com/downloads)
 
 ## Build Image
 
@@ -47,7 +47,7 @@ oracle/database:18.4.0-xe
 ```
 
 #### Windows
-```cmd
+```bat
 git clone https://github.com/tiagofelicio/xe-18c-out.git
 cd xe-18c-out
 TODO

@@ -29,7 +29,7 @@ cd ~/.oracle
 git clone https://github.com/oracle/docker-images.git
 # go to oracle single instance docker files directory
 cd docker-images/OracleDatabase/SingleInstance/dockerfiles
-# check https://github.com/oracle/docker-images/blob/master/OracleDatabase/SingleInstance/README.md for more info
+# check https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance for more info
 ./buildDockerImage.sh -v 18.4.0 -x
 # go to work directory
 cd ~/.oracle
@@ -55,7 +55,7 @@ cd /d %USERPROFILE%
 git clone https://github.com/oracle/docker-images.git
 # go to oracle single instance docker files directory
 cd docker-images/OracleDatabase/SingleInstance/dockerfiles
-# check https://github.com/oracle/docker-images/blob/master/OracleDatabase/SingleInstance/README.md for more info
+# check https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance for more info
 "D:\Program Files\Git\bin\bash.exe" --login -i -c "./buildDockerImage.sh -v 18.4.0 -x"
 # go to user home directory
 cd /d %USERPROFILE%

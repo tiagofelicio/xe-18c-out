@@ -4,7 +4,7 @@
 
 1. [Requirements](#1-requirements)
 1. [Install](#2-install)
-    2. [Oracle 18c Express Edition on Docker](#21-oracle-18c-express-edition-on-docker)
+    1. [Oracle 18c Express Edition on Docker](#21-oracle-18c-express-edition-on-docker)
         - [Linux](#linux)
         - [Windows](#windows)
 1. [Run Container](#run-container)

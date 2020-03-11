@@ -7,7 +7,7 @@
     1. [Oracle 18c Express Edition on Docker](#21-oracle-18c-express-edition-on-docker)
         - [Linux](#linux)
         - [Windows](#windows)
-    1. [Oracle Unified Toolkit]
+    1. [Oracle Unified Toolkit](#22-oracle-unified-toolkit)
 1. [Run Container](#run-container)
 1. [Container Commands](#container-commands)
 
@@ -65,6 +65,8 @@ cd /d %USERPROFILE%
 # remove oracle docker images folder
 rmdir docker-images /s /q
 ```
+
+### 2.2. Oracle Unified Toolkit
 
 ## Run Container
 

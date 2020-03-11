@@ -25,18 +25,6 @@
 
 ## Build Image
 
-Tab group 1:
-
-# [Tab Text 1](#tab/tabid-1)
-
-Tab content-1-1.
-
-# [Tab Text 2](#tab/tabid-2)
-
-Tab content-2-1.
-
-***
-
 ```bash
 -- Clone repo
 git clone https://github.com/tiagofelicio/xe-18c-out.git

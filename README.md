@@ -23,6 +23,13 @@ cd xe-18c-out
 sh build.sh
 ```
 
+### Linux
+```cmd
+git clone https://github.com/tiagofelicio/xe-18c-out.git
+cd xe-18c-out
+TODO
+```
+
 ## Run Container
 
 _Note first time will take a a while to run for as the `oracle-xe configure` script needs to complete_

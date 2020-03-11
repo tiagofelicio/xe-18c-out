@@ -38,10 +38,16 @@ cd docker-images/OracleDatabase/SingleInstance/dockerfiles
 cd ~/.oracle
 # remove oracle docker images folder
 rm -rf docker-images
-# data files will be stored here
+# create oradata home folder
 mkdir ~/.oracle/oradata
+# create oracle setup scripts folder
+mkdir ~/.oracle/scripts/setup
+# go to oracle setup scripts folder
+cd scripts/setup
+# clone unified toolkit for oracle
+git clone https://github.com/tiagofelicio/out.git
 # create container
-docker run --name oracle-18.4.0-xe \
+docker create --name oracle-18.4.0-xe \
     -p 1521:1521 \
     -p 5500:5500 \
     -e ORACLE_PWD=oracle \

@@ -4,8 +4,8 @@
 
 1. [Requirements](#1-requirements)
 1. [Build Image](#2-build-image)
-    1.1. [Linux](#21-linux)
-    1.1. [Windows](#22-windows)
+    - [Linux](#linux)
+    - [Windows](#windows)
 1. [Run Container](#run-container)
 1. [Container Commands](#container-commands)
 
@@ -18,7 +18,7 @@
 
 ## 2. Build Image
 
-### 2.1. Linux
+### Linux
 ```bash
 ## go to user home directory
 cd ~
@@ -48,7 +48,7 @@ docker create --name oracle-18.4.0-xe \
 oracle/database:18.4.0-xe
 ```
 
-### 2.2. Windows
+### Windows
 ```bat
 git clone https://github.com/tiagofelicio/xe-18c-out.git
 cd xe-18c-out

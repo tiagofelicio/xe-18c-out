@@ -26,7 +26,7 @@ cd ~
 git clone https://github.com/oracle/docker-images.git
 ## go to oracle single instance docker files directory
 cd docker-images/OracleDatabase/SingleInstance/dockerfiles
-## 
+## check [Building Oracle Database Docker Install Images](https://github.com/oracle/docker-images/blob/master/OracleDatabase/SingleInstance/README.md#building-oracle-database-docker-install-images)
 ./buildDockerImage.sh -v 18.4.0 -x
 # go to user home directory
 cd ~

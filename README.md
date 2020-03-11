@@ -18,14 +18,18 @@
 
 #### Linux
 ```bash
+# go to user home directory
+cd ~
+# clone oracle docker images repo
+git clone https://github.com/oracle/docker-images.git
+#
+cd docker-images/OracleDatabase/SingleInstance/dockerfiles
+# 
+./buildDockerImage.sh -v 18.4.0 -x
+# go to user home directory
 cd ~
 
-git clone https://github.com/oracle/docker-images.git
-cd docker-images/OracleDatabase/SingleInstance/dockerfiles
-
-./buildDockerImage.sh -v 18.4.0 -x
-
-rm -rf docker-images
+rm -r docker-images
 
 mkdir -p ~/.oracle/oradata
 mkdir -p ~/.oracle/scripts/setup

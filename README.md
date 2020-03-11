@@ -6,8 +6,8 @@
 2. [Install](#2-install)
     - [Linux](#linux)
     - [Windows](#windows)
-3. [Uninstall](#uninstall)
-4. [Notes](#notes)
+3. [Uninstall](#3-uninstall)
+4. [Notes](#4-notes)
 5. [Run Container](#run-container)
 6. [Container Commands](#container-commands)
 

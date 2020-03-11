@@ -27,7 +27,7 @@
 
 ```bash
 -- Clone repo
-git clone git@github.com:fuzziebrain/docker-oracle-xe.git
+git clone git@github.com:tiagofelicio/xe-18c-out.git
 
 -- Set the working directory to the project folder
 cd docker-oracle-xe

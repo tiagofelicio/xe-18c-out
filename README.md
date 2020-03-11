@@ -31,7 +31,7 @@ cd ~/.oracle
 # clone oracle docker images repo
 git clone https://github.com/oracle/docker-images.git
 # go to oracle single instance docker files directory
-cd docker-images/OracleDatabase/SingleInstance/dockerfiles
+cd ~/.oracle/docker-images/OracleDatabase/SingleInstance/dockerfiles
 # check https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance for more info
 ./buildDockerImage.sh -v 18.4.0 -x
 # go to work directory
@@ -43,7 +43,7 @@ mkdir ~/.oracle/oradata
 # create oracle setup scripts folder
 mkdir ~/.oracle/scripts/setup
 # go to oracle setup scripts folder
-cd scripts/setup
+cd ~/.oracle/scripts/setup
 # clone unified toolkit for oracle
 git clone https://github.com/tiagofelicio/out.git
 # create container

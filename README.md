@@ -9,6 +9,7 @@
 3. [Install Unified Toolkit for Oracle](#3-install-unified-toolkit-for-oracle)
     - [Linux](#linux-1)
     - [Windows](#windows-1)
+4. [Uninstall]
 4. [Run Container](#run-container)
 5. [Container Commands](#container-commands)
 

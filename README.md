@@ -25,6 +25,17 @@
 
 ## Build Image
 
+# A collapsible section containing markdown
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+
 ```bash
 -- Clone repo
 git clone https://github.com/tiagofelicio/xe-18c-out.git

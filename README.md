@@ -75,6 +75,10 @@ rmdir docker-images /s /q
 docker rm oracle-18.4.0-xe
 # remove oracle/database:18.4.0-xe image
 docker rmi $(docker images oracle/database:18.4.0-xe -q)
+# remove oraclelinux:7-slim image
+docker rmi $(docker images oraclelinux:7-slim -q)
+# remove work directory
+rm -r ~/.oracle
 ```
 
 #### Windows

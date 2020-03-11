@@ -24,29 +24,22 @@
 
 #### Linux
 ```bash
-# create oracle base strucutre
 mkdir -p ~/.oracle/oradata ~/.oracle/scripts/setup
-# go to work directory
 cd ~/.oracle
-# clone oracle docker images repo
 git clone https://github.com/oracle/docker-images.git
-# go to oracle single instance docker files directory
 cd ~/.oracle/docker-images/OracleDatabase/SingleInstance/dockerfiles
 # check https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance for more info
 ./buildDockerImage.sh -v 18.4.0 -x
-# remove oracle docker images folder
 rm -rf ~/.oracle/docker-images
-# go to oracle setup scripts folder
 cd ~/.oracle/scripts/setup
-# clone unified toolkit for oracle
 git clone https://github.com/tiagofelicio/out.git
-# create container
 docker create --name oracle-18.4.0-xe \
-    -p 1521:1521 \
-    -p 5500:5500 \
-    -e ORACLE_PWD=oracle \
-    -e ORACLE_CHARACTERSET=AL32UTF8 \
-    -v ~/.oracle/oradata:/opt/oracle/oradata \
+    --publish 1521:1521 \
+    --publish 5500:5500 \
+    --env ORACLE_PWD=oracle \
+    --env ORACLE_CHARACTERSET=AL32UTF8 \
+    --volume ~/.oracle/oradata:/opt/oracle/oradata \
+    --volume ~/.oracle/scripts/setup:/opt/oracle/scripts/setup \
 oracle/database:18.4.0-xe
 ```
 

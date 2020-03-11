@@ -2,12 +2,12 @@
 
 <!-- TOC depthFrom:2 -->
 
-- [1. Prerequisites](#1-prerequisites)
-- [2. Build Image](#2-build-image)
+1. [1. Prerequisites](#1-prerequisites)
+1. [2. Build Image](#2-build-image)
     - [2.1. Linux] (#21-linux)
     - [2.2. Windows] (#22-windows)
-- [3. Run Container](#run-container)
-- [4. Container Commands](#container-commands)
+1. [3. Run Container](#run-container)
+1. [4. Container Commands](#container-commands)
 
 <!-- /TOC -->
 

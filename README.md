@@ -3,13 +3,10 @@
 <!-- TOC depthFrom:2 -->
 
 1. [Requirements](#1-requirements)
-2. [Install Oracle 18c Express Edition on Docker](#2-install-oracle-18c-express-edition-on-docker)
+2. [Install](#2-install)
     - [Linux](#linux)
     - [Windows](#windows)
-3. [Install Unified Toolkit for Oracle](#3-install-unified-toolkit-for-oracle)
-    - [Linux](#linux-1)
-    - [Windows](#windows-1)
-4. [Uninstall]
+3. [Uninstall]
 4. [Run Container](#run-container)
 5. [Container Commands](#container-commands)
 
@@ -20,7 +17,7 @@
 - [Docker](https://www.docker.com/products/docker-desktop)
 - [Git](https://git-scm.com/downloads)
 
-## 2. Install Oracle 18c Express Edition on Docker
+## 2. Install
 
 #### Linux
 ```bash
@@ -64,22 +61,6 @@ REM go to user home directory
 cd /d %USERPROFILE%
 REM remove oracle docker images folder
 rmdir docker-images /s /q
-```
-
-## 3. Install Unified Toolkit for Oracle
-
-**Note:** The conansdna
-
-#### Linux
-```bash
-# create work directory
-TODO
-```
-
-#### Windows
-```bat
-REM go to user home directory
-TODO
 ```
 
 ## Run Container

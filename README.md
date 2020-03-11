@@ -20,21 +20,21 @@
 
 ### Linux
 ```bash
-## go to user home directory
+# go to user home directory
 cd ~
-## clone oracle docker images repo
+# clone oracle docker images repo
 git clone https://github.com/oracle/docker-images.git
-## go to oracle single instance docker files directory
+# go to oracle single instance docker files directory
 cd docker-images/OracleDatabase/SingleInstance/dockerfiles
-## check https://github.com/oracle/docker-images/blob/master/OracleDatabase/SingleInstance/README.md for more info
+# check https://github.com/oracle/docker-images/blob/master/OracleDatabase/SingleInstance/README.md for more info
 ./buildDockerImage.sh -v 18.4.0 -x
 # go to user home directory
 cd ~
-## remove oracle docker images folder
+# remove oracle docker images folder
 rm -r docker-images
-## data files will be stored here
+# data files will be stored here
 mkdir -p ~/.oracle/oradata
-## create container
+# create container
 docker create --name oracle-18.4.0-xe \
     -p 1521:1521 \
     -p 5500:5500 \

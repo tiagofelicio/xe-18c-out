@@ -1,6 +1,6 @@
 # Oracle 18c Express Edition + Oracle Unified Toolkit on Docker
 
-<!-- TOC depthFrom:2 -->
+<!-- TOC depthFrom:1 -->
 
 - [Prerequisites](#prerequisites)
 - [Build Image](#build-image)

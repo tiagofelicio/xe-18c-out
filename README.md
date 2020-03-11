@@ -38,7 +38,7 @@ rm -rf docker-images
 # data files will be stored here
 mkdir ~/.oracle/oradata
 # create container
-docker create --name oracle-18.4.0-xe \
+docker run --name oracle-18.4.0-xe \
     -p 1521:1521 \
     -p 5500:5500 \
     -e ORACLE_PWD=oracle \

@@ -16,6 +16,7 @@
 
 ## Build Image
 
+### Linux
 ```bash
 git clone https://github.com/tiagofelicio/xe-18c-out.git
 cd xe-18c-out

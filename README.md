@@ -65,6 +65,8 @@ rmdir docker-images /s /q
 
 ## 3. Install Unified Toolkit for Oracle
 
+_Note:_ The conansdna
+
 ## Run Container
 
 _Note first time will take a a while to run for as the `oracle-xe configure` script needs to complete_

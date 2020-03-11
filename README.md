@@ -63,7 +63,7 @@ cd /d %USERPROFILE%
 rmdir docker-images /s /q
 ```
 
-### 3. Install Oracle Unified Toolkit
+## 3. Install Oracle Unified Toolkit
 
 ## Run Container
 

@@ -24,8 +24,8 @@
 
 #### Linux
 ```bash
-# create work directory
-mkdir ~/.oracle
+# create oracle base strucutre
+mkdir -p ~/.oracle/oradata ~/.oracle/scripts/setup
 # go to work directory
 cd ~/.oracle
 # clone oracle docker images repo
@@ -34,14 +34,8 @@ git clone https://github.com/oracle/docker-images.git
 cd ~/.oracle/docker-images/OracleDatabase/SingleInstance/dockerfiles
 # check https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance for more info
 ./buildDockerImage.sh -v 18.4.0 -x
-# go to work directory
-cd ~/.oracle
 # remove oracle docker images folder
-rm -rf docker-images
-# create oradata home folder
-mkdir ~/.oracle/oradata
-# create oracle setup scripts folder
-mkdir ~/.oracle/scripts/setup
+rm -rf ~/.oracle/docker-images
 # go to oracle setup scripts folder
 cd ~/.oracle/scripts/setup
 # clone unified toolkit for oracle

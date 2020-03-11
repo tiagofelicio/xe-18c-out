@@ -2,10 +2,10 @@
 
 <!-- TOC depthFrom:1 -->
 
-- [Prerequisites](#prerequisites)
-- [Build Image](#build-image)
-- [Run Container](#run-container)
-- [Container Commands](#container-commands)
+- [1. Prerequisites](#prerequisites)
+- [2. Build Image](#build-image)
+- [3. Run Container](#run-container)
+- [4. Container Commands](#container-commands)
 
 <!-- /TOC -->
 

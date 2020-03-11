@@ -1,9 +1,11 @@
 # Oracle 18c Express Edition + Oracle Unified Toolkit on Docker
 
-<!-- TOC depthFrom:1 -->
+<!-- TOC depthFrom:2 -->
 
-- [1. Prerequisites](#1.-prerequisites)
-- [2. Build Image](#2.-build-image)
+- [1. Prerequisites](#1-prerequisites)
+- [2. Build Image](#2-build-image)
+    - [2.1 Linux] (#21-linux)
+    - [2.2 Windows] (#22-windows)
 - [3. Run Container](#run-container)
 - [4. Container Commands](#container-commands)
 
@@ -16,7 +18,7 @@
 
 ## 2. Build Image
 
-#### Linux
+### 2.1 Linux
 ```bash
 ## go to user home directory
 cd ~
@@ -46,7 +48,7 @@ docker create --name oracle-18.4.0-xe \
 oracle/database:18.4.0-xe
 ```
 
-#### Windows
+### 2.2 Windows
 ```bat
 git clone https://github.com/tiagofelicio/xe-18c-out.git
 cd xe-18c-out

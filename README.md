@@ -20,9 +20,6 @@
 ```bash
 cd ~
 
-git clone https://github.com/tiagofelicio/xe-18c-out.git
-cd xe-18c-out
-
 git clone https://github.com/oracle/docker-images.git
 cd docker-images/OracleDatabase/SingleInstance/dockerfiles
 

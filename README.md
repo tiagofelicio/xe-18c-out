@@ -33,12 +33,12 @@ rm -rf ~/.oracle/docker-images
 cd ~/.oracle/scripts/setup
 git clone https://github.com/tiagofelicio/out.git
 docker create --name oracle-18.4.0-xe \
-    --publish 1521:1521 \
-    --publish 5500:5500 \
-    --env ORACLE_PWD=oracle \
-    --env ORACLE_CHARACTERSET=AL32UTF8 \
-    --volume ~/.oracle/oradata:/opt/oracle/oradata \
-    --volume ~/.oracle/scripts/setup:/opt/oracle/scripts/setup \
+    -p 1521:1521 \
+    -p 5500:5500 \
+    -e ORACLE_PWD=oracle \
+    -e ORACLE_CHARACTERSET=AL32UTF8 \
+    -v ~/.oracle/oradata:/opt/oracle/oradata \
+    -v ~/.oracle/scripts/setup:/opt/oracle/scripts/setup \
 oracle/database:18.4.0-xe
 ```
 

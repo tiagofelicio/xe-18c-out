@@ -1,5 +1,4 @@
 # Oracle 18c Express Edition + Oracle Unified Toolkit
-Oracle 18c Express Edition + OUT
 
 <!-- TOC depthFrom:2 -->
 
@@ -21,7 +20,7 @@ Oracle 18c Express Edition + OUT
 
 ## Prerequisites
 
-1. [Download](https://www.docker.com/products/docker-desktop) download and install Docker Desktop.
+1. [Download](https://www.docker.com/products/docker-desktop) and install Docker Desktop.
 
 1. _Optional:_ Setup docker network: `docker network create oracle_network`. This is useful if you want other containers to connect to your database (ORDS for example). You can change `oracle_network` for any name you want, however this name will be used in all the code snippets below. 
 

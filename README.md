@@ -1,13 +1,12 @@
 # Oracle 18c Express Edition + Oracle Unified Toolkit on Docker
 
-<!-- TOC depthFrom:3 -->
+<!-- TOC depthFrom:2 -->
 
 1. [Requirements](#1-requirements)
-1. [Install](#2-install)
-    1.1. [Oracle 18c Express Edition on Docker](#21-oracle-18c-express-edition-on-docker)
-        - [Linux](#linux)
-        - [Windows](#windows)
-    1.1. [Oracle Unified Toolkit](#22-oracle-unified-toolkit)
+1. [Install Oracle 18c Express Edition on Docker](#2-install-oracle-18c-express-edition-on-docker)
+    - [Linux](#linux)
+    - [Windows](#windows)
+1. [Oracle Unified Toolkit](#22-oracle-unified-toolkit)
 1. [Run Container](#run-container)
 1. [Container Commands](#container-commands)
 
@@ -18,9 +17,7 @@
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 - [Git](https://git-scm.com/downloads)
 
-## 2. Install
-
-### 2.1. Oracle 18c Express Edition on Docker
+## 2. Install Oracle 18c Express Edition on Docker
 
 #### Linux
 ```bash

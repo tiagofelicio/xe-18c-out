@@ -4,8 +4,8 @@
 
 1. [Requirements](#1-requirements)
 1. [Build Image](#2-build-image)
-    2. [2.1. Linux](#21-linux)
-    2. [2.2. Windows](#22-windows)
+    1.1. [Linux](#21-linux)
+    1.1. [Windows](#22-windows)
 1. [Run Container](#run-container)
 1. [Container Commands](#container-commands)
 

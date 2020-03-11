@@ -18,7 +18,7 @@
 
 #### Linux
 ```bash
-# go to user home directory
+## go to user home directory
 cd ~
 # clone oracle docker images repo
 git clone https://github.com/oracle/docker-images.git

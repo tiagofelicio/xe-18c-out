@@ -49,17 +49,17 @@ oracle/database:18.4.0-xe
 
 #### Windows
 ```bat
-# go to user home directory
+REM go to user home directory
 cd /d %USERPROFILE%
-# clone oracle docker images repo
+REM clone oracle docker images repo
 git clone https://github.com/oracle/docker-images.git
-# go to oracle single instance docker files directory
+REM go to oracle single instance docker files directory
 cd docker-images/OracleDatabase/SingleInstance/dockerfiles
-# check https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance for more info
+REM check https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance for more info
 "D:\Program Files\Git\bin\bash.exe" --login -i -c "./buildDockerImage.sh -v 18.4.0 -x"
-# go to user home directory
+REM go to user home directory
 cd /d %USERPROFILE%
-# remove oracle docker images folder
+REM remove oracle docker images folder
 rmdir docker-images /s /q
 ```
 

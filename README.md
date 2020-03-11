@@ -31,7 +31,7 @@ cd docker-images/OracleDatabase/SingleInstance/dockerfiles
 # go to user home directory
 cd ~
 # remove oracle docker images folder
-rm -r docker-images
+rm -rf docker-images
 # data files will be stored here
 mkdir -p ~/.oracle/oradata
 # create container

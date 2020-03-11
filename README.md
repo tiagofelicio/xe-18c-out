@@ -20,7 +20,7 @@
 ```bash
 ## go to user home directory
 cd ~
-# clone oracle docker images repo
+## clone oracle docker images repo
 git clone https://github.com/oracle/docker-images.git
 ## go to oracle single instance docker files directory
 cd docker-images/OracleDatabase/SingleInstance/dockerfiles
@@ -30,7 +30,7 @@ cd docker-images/OracleDatabase/SingleInstance/dockerfiles
 cd ~
 ## remove oracle docker images folder
 rm -r docker-images
-
+## create 
 mkdir -p ~/.oracle/oradata
 mkdir -p ~/.oracle/scripts/setup
 mkdir -p ~/.oracle/scripts/startup

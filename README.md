@@ -2,16 +2,16 @@
 
 <!-- TOC depthFrom:2 -->
 
-1. [Prerequisites](#1-prerequisites)
+1. [Requirements](#1-requirements)
 1. [Build Image](#2-build-image)
-    - [2.1. Linux](#21-linux)
-    - [2.2. Windows](#22-windows)
+    2. [2.1. Linux](#21-linux)
+    2. [2.2. Windows](#22-windows)
 1. [Run Container](#run-container)
 1. [Container Commands](#container-commands)
 
 <!-- /TOC -->
 
-## 1. Prerequisites
+## 1. Requirements
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 - [Git](https://git-scm.com/downloads)

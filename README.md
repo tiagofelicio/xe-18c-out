@@ -22,13 +22,13 @@
 cd ~
 # clone oracle docker images repo
 git clone https://github.com/oracle/docker-images.git
-#
+## go to oracle single instance docker files directory
 cd docker-images/OracleDatabase/SingleInstance/dockerfiles
-# 
+## 
 ./buildDockerImage.sh -v 18.4.0 -x
 # go to user home directory
 cd ~
-
+## remove oracle docker images folder
 rm -r docker-images
 
 mkdir -p ~/.oracle/oradata

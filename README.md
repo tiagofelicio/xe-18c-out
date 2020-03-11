@@ -28,8 +28,7 @@ mkdir -p ~/.oracle/oradata ~/.oracle/scripts/setup
 cd ~/.oracle
 git clone https://github.com/oracle/docker-images.git
 cd ~/.oracle/docker-images/OracleDatabase/SingleInstance/dockerfiles
-# check https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance for more info
-./buildDockerImage.sh -v 18.4.0 -x
+./buildDockerImage.sh -v 18.4.0 -x # check https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance for more info
 rm -rf ~/.oracle/docker-images
 cd ~/.oracle/scripts/setup
 git clone https://github.com/tiagofelicio/out.git

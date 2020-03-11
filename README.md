@@ -46,9 +46,14 @@ oracle/database:18.4.0-xe
 
 ### Windows
 ```bat
-git clone https://github.com/tiagofelicio/xe-18c-out.git
-cd xe-18c-out
-TODO
+# go to user home directory
+cd /d %USERPROFILE%
+# clone oracle docker images repo
+git clone https://github.com/oracle/docker-images.git
+# go to oracle single instance docker files directory
+cd docker-images/OracleDatabase/SingleInstance/dockerfiles
+# check https://github.com/oracle/docker-images/blob/master/OracleDatabase/SingleInstance/README.md for more info
+
 ```
 
 ## Run Container

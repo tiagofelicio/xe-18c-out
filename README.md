@@ -25,6 +25,7 @@
 ## 2. Install
 
 #### Linux
+
 ```bash
 git clone https://github.com/tiagofelicio/xe-18c-out.git ~/.oracle
 git clone https://github.com/tiagofelicio/out.git ~/.oracle/scripts/setup/out
@@ -45,6 +46,7 @@ oracle/database:18.4.0-xe
 ```
 
 #### Windows
+
 ```bat
 git clone https://github.com/tiagofelicio/xe-18c-out.git %USERPROFILE%\.oracle
 git clone https://github.com/tiagofelicio/out.git %USERPROFILE%\.oracle\scripts\setup\out
@@ -66,12 +68,12 @@ oracle/database:18.4.0-xe
 
 ## 3. Reference
 
-Starting the container
+Starting the container:
 ```
 docker start oracle-18.4.0-xe
 ```
 
-Stopping the container
+Stopping the container:
 ```
 docker stop oracle-18.4.0-xe
 ```

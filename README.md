@@ -12,6 +12,7 @@
 4. [Notes](#4-notes)
 5. [Run Container](#run-container)
 6. [Container Commands](#container-commands)
+7. [Troubleshooting]
 
 <!-- /TOC -->
 

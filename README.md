@@ -49,7 +49,7 @@ git clone https://github.com/tiagofelicio/xe-18c-out.git %USERPROFILE%\.oracle
 git clone https://github.com/tiagofelicio/out.git %USERPROFILE%\.oracle\scripts\setup\out
 git clone https://github.com/oracle/docker-images.git %USERPROFILE%\.oracle\docker-images
 cd /d %USERPROFILE%\.oracle\docker-images\OracleDatabase\SingleInstance\dockerfiles
-"D:\Program Files\Git\bin\bash.exe" --login -i -c "./buildDockerImage.sh -v 18.4.0 -x"
+"D:\Program Files\Git\bin\bash.exe" --login -i -c "./buildDockerImage.sh -v 18.4.0 -x" & :: https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance
 cd /d %USERPROFILE%\.oracle
 rmdir %USERPROFILE%\.oracle\docker-images /s /q
 docker create --name oracle-18.4.0-xe ^

@@ -72,10 +72,21 @@ oracle/database:18.4.0-xe
 ```
 docker start oracle-18.4.0-xe
 ```
-
-Stopping the container:
+**Stopping the container:**
 ```
 docker stop oracle-18.4.0-xe
+```
+**Check container status:**
+```
+docker ps -a --filter "name=oracle-18.4.0-xe"
+```
+**Check container resource usage statistics:**
+```
+docker stats --all oracle-18.4.0-xe
+```
+**Check container logs:**
+```
+docker logs oracle-18.4.0-xe
 ```
 
 ## 4. Uninstall

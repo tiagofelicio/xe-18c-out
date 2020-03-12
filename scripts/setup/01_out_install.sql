@@ -6,7 +6,7 @@
 -- Last Modified : 2020/03/12
 -- -----------------------------------------------------------------------------------
 
-alter session set container = xepdb1;
+alter session set container = xepdb1;k
 
 create tablespace metadata
 datafile '/opt/oracle/oradata/XE/XEPDB1/metadata01.dbf' size 1g

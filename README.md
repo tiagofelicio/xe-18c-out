@@ -75,8 +75,10 @@ rm -rf ~/.oracle
 #### Windows
 
 ```bat
-REM remove container
 docker rm oracle-18.4.0-xe
+docker rmi $(docker images oracle/database:18.4.0-xe -q)
+docker rmi $(docker images oraclelinux:7-slim -q)
+rmdir %USERPROFILE%\.oracle /s /q
 ```
 
 ## 4. Notes

@@ -52,14 +52,14 @@ cd /d %USERPROFILE%\.oracle\docker-images\OracleDatabase\SingleInstance\dockerfi
 "D:\Program Files\Git\bin\bash.exe" --login -i -c "./buildDockerImage.sh -v 18.4.0 -x"
 cd /d %USERPROFILE%\.oracle
 rmdir %USERPROFILE%\.oracle\docker-images /s /q
-docker create --name oracle-18.4.0-xe \
-    -p 1521:1521 \
-    -p 5500:5500 \
-    -e ORACLE_PWD=oracle \
-    -e ORACLE_CHARACTERSET=AL32UTF8 \
-    -v %USERPROFILE%\.oracle\oradata:/opt/oracle/oradata \
-    -v %USERPROFILE%\.oracle\scripts\setup:/opt/oracle/scripts/setup \
-    -v %USERPROFILE%\.oracle\scripts\startup:/opt/oracle/scripts/startup \
+docker create --name oracle-18.4.0-xe ^
+    -p 1521:1521 ^
+    -p 5500:5500 ^
+    -e ORACLE_PWD=oracle ^
+    -e ORACLE_CHARACTERSET=AL32UTF8 ^
+    -v %USERPROFILE%\.oracle\oradata:/opt/oracle/oradata ^
+    -v %USERPROFILE%\.oracle\scripts\setup:/opt/oracle/scripts/setup ^
+    -v %USERPROFILE%\.oracle\scripts\startup:/opt/oracle/scripts/startup ^
 oracle/database:18.4.0-xe
 ```
 

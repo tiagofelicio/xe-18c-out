@@ -30,6 +30,7 @@ git clone https://github.com/tiagofelicio/out.git ~/.oracle/scripts/setup/out
 git clone https://github.com/oracle/docker-images.git ~/.oracle/docker-images
 cd ~/.oracle/docker-images/OracleDatabase/SingleInstance/dockerfiles
 ./buildDockerImage.sh -v 18.4.0 -x # https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance
+cd ~/.oracle/
 rm -rf ~/.oracle/docker-images
 docker create --name oracle-18.4.0-xe \
     -p 1521:1521 \
@@ -49,6 +50,7 @@ git clone https://github.com/tiagofelicio/out.git %USERPROFILE%\.oracle\scripts\
 git clone https://github.com/oracle/docker-images.git %USERPROFILE%\.oracle\docker-images
 cd /d %USERPROFILE%\.oracle\docker-images\OracleDatabase\SingleInstance\dockerfiles
 "D:\Program Files\Git\bin\bash.exe" --login -i -c "./buildDockerImage.sh -v 18.4.0 -x"
+cd /d %USERPROFILE%\.oracle
 rmdir %USERPROFILE%\.oracle\docker-images /s /q
 docker create --name oracle-18.4.0-xe \
     -p 1521:1521 \

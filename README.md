@@ -25,11 +25,11 @@
 #### Linux
 ```bash
 git clone https://github.com/tiagofelicio/xe-18c-out.git ~/.oracle
+git clone https://github.com/tiagofelicio/out.git ~/.oracle/scripts/setup
 git clone https://github.com/oracle/docker-images.git ~/.oracle/docker-images
 cd ~/.oracle/docker-images/OracleDatabase/SingleInstance/dockerfiles
 ./buildDockerImage.sh -v 18.4.0 -x # https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance
 rm -rf ~/.oracle/docker-images
-git clone https://github.com/tiagofelicio/out.git ~/.oracle/scripts/setup
 docker create --name oracle-18.4.0-xe \
     -p 1521:1521 \
     -p 5500:5500 \

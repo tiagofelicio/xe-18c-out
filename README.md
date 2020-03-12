@@ -40,7 +40,7 @@ cat > ~/.oracle/scripts/setup/out_install.sql << EOF
     nologging online permanent
     extent management local autoallocate default
     nocompress segment space management auto;
-    @@out.install.sql $ORACLE_PWD meta temp
+    @@out/install.sql $ORACLE_PWD meta temp
 EOF
 docker create --name oracle-18.4.0-xe \
     -p 1521:1521 \

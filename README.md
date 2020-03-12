@@ -6,7 +6,8 @@
 1. [Install](#2-install)
     - [Linux](#linux)
     - [Windows](#windows)
-1. [Starting Up and Shutting Down](#3-starting-up-and-shutting-down)
+1. [Reference](#3-reference)
+    - [Start](#start)
 1. [Uninstall](#3-uninstall)
     - [Linux](#linux-1)
     - [Windows](#windows-1)
@@ -64,7 +65,12 @@ docker create --name oracle-18.4.0-xe ^
 oracle/database:18.4.0-xe
 ```
 
-## 3. Starting Up and Shutting Down
+## 3. Reference
+
+#### Start
+```
+docker start oracle-18.4.0-xe
+```
 
 ## 4. Uninstall
 

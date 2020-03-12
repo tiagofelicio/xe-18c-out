@@ -32,6 +32,16 @@ cd ~/.oracle/docker-images/OracleDatabase/SingleInstance/dockerfiles
 rm -rf ~/.oracle/docker-images
 cd ~/.oracle/scripts/setup
 git clone https://github.com/tiagofelicio/out.git
+cat > ~/.oracle/scripts/setup/out_install.sql << EOF
+    alter session set container = xepdb1;
+    create tablespace meta
+    datafile '/opt/oracle/oradata/XE/XEPDB1/meta01.dbf' size 1g
+    autoextend on next 1g maxsize 5g
+    nologging online permanent
+    extent management local autoallocate default
+    nocompress segment space management auto;
+    @@out.install.sql $ORACLE_PWD meta temp
+EOF
 docker create --name oracle-18.4.0-xe \
     -p 1521:1521 \
     -p 5500:5500 \

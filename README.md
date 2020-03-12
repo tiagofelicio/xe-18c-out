@@ -25,13 +25,11 @@
 #### Linux
 ```bash
 mkdir -p ~/.oracle/oradata ~/.oracle/scripts/setup
-cd ~/.oracle
-git clone https://github.com/oracle/docker-images.git
+git clone https://github.com/oracle/docker-images.git ~/.oracle/docker-images
 cd ~/.oracle/docker-images/OracleDatabase/SingleInstance/dockerfiles
 ./buildDockerImage.sh -v 18.4.0 -x # https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance
 rm -rf ~/.oracle/docker-images
-cd ~/.oracle/scripts/setup
-git clone https://github.com/tiagofelicio/out.git
+git clone https://github.com/tiagofelicio/out.git ~/.oracle/scripts/setup
 cat > ~/.oracle/scripts/setup/out_install.sql << EOF
     alter session set container = xepdb1;
     create tablespace meta

@@ -2,12 +2,12 @@
 
 <!-- TOC depthFrom:2 -->
 
-1. [Requirements](#1-requirements)
-2. [Install](#2-install)
+0. [Requirements](#1-requirements)
+0. [Install](#2-install)
     - [Linux](#linux)
     - [Windows](#windows)
-3. [Managing Container](#3-managing-container)
-4. [Uninstall](#3-uninstall)
+0. [Managing Container](#3-managing-container)
+0. [Uninstall](#3-uninstall)
     - [Linux](#linux-1)
     - [Windows](#windows-1)
 4. [Notes](#4-notes)

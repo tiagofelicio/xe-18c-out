@@ -43,13 +43,11 @@ oracle/database:18.4.0-xe
 
 #### Windows
 ```bat
-REM go to user home directory
-cd /d %USERPROFILE%
-REM clone oracle docker images repo
-git clone https://github.com/oracle/docker-images.git
-REM go to oracle single instance docker files directory
-cd docker-images/OracleDatabase/SingleInstance/dockerfiles
-REM check https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance for more info
+git clone https://github.com/tiagofelicio/xe-18c-out.git %USERPROFILE%\.oracle
+git clone https://github.com/tiagofelicio/out.git %USERPROFILE%\.oracle\scripts\setup\out
+git clone https://github.com/oracle/docker-images.git %USERPROFILE%\.oracle\docker-images
+cd /d %USERPROFILE%\.oracle\docker-images\OracleDatabase\SingleInstance\dockerfiles
+
 "D:\Program Files\Git\bin\bash.exe" --login -i -c "./buildDockerImage.sh -v 18.4.0 -x"
 REM go to user home directory
 cd /d %USERPROFILE%

@@ -24,7 +24,7 @@
 
 #### Linux
 ```bash
-mkdir -p ~/.oracle/oradata ~/.oracle/scripts/setup
+git clone https://github.com/tiagofelicio/xe-18c-out.git ~/.oracle
 git clone https://github.com/oracle/docker-images.git ~/.oracle/docker-images
 cd ~/.oracle/docker-images/OracleDatabase/SingleInstance/dockerfiles
 ./buildDockerImage.sh -v 18.4.0 -x # https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance

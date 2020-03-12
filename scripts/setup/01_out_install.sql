@@ -15,4 +15,4 @@ nologging online permanent
 extent management local autoallocate default
 compress segment space management auto;
 
-@@./out/install.sql oracle metadata temp
+@/opt/oracle/scripts/setup/out/install.sql oracle metadata temp

@@ -6,7 +6,8 @@
 2. [Install](#2-install)
     - [Linux](#linux)
     - [Windows](#windows)
-3. [Uninstall](#3-uninstall)
+3. [Managing Container](#3-managing-container)
+4. [Uninstall](#3-uninstall)
     - [Linux](#linux-1)
     - [Windows](#windows-1)
 4. [Notes](#4-notes)
@@ -63,7 +64,9 @@ docker create --name oracle-18.4.0-xe ^
 oracle/database:18.4.0-xe
 ```
 
-## 3. Uninstall
+## 3. Managing Container
+
+## 4. Uninstall
 
 #### Linux
 

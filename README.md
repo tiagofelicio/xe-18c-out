@@ -66,8 +66,15 @@ oracle/database:18.4.0-xe
 
 ## 3. Reference
 
-**Start:** `docker start oracle-18.4.0-xe`
-**Stop:** `docker stop oracle-18.4.0-xe`
+Starting the container
+```
+docker start oracle-18.4.0-xe
+```
+
+Stopping the container
+```
+docker stop oracle-18.4.0-xe
+```
 
 ## 4. Uninstall
 

@@ -10,8 +10,8 @@
 1. [Uninstall](#4-uninstall)
     - [Linux](#linux-1)
     - [Windows](#windows-1)
-1. [Notes](#4-notes)
-1. [Troubleshooting](5-troubleshooting)
+1. [Notes](#5-notes)
+1. [Troubleshooting](6-troubleshooting)
 
 <!-- /TOC -->
 
@@ -111,7 +111,7 @@ docker rmi $(docker images oraclelinux:7-slim -q)
 rmdir %USERPROFILE%\.oracle /s /q
 ```
 
-## 4. Notes
+## 5. Notes
 
 Name | Required | Description 
 --- | --- | ---
@@ -122,4 +122,4 @@ Name | Required | Description
 `--network` | Optional | If other containers need to connect to this one (ex: [ORDS](https://github.com/martindsouza/docker-ords)) then they should all be on the same docker network.
 `oracle-xe:18c` | Required | This is the `name:tag` of the docker image that was built in the previous step
 
-## 5. Troubleshooting
+## 6. Troubleshooting

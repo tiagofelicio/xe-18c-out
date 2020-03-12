@@ -1,8 +1,8 @@
 -- -----------------------------------------------------------------------------------
--- File Name     : 01_out_install.sql
+-- File Name     : out_pre_install.pls
 -- Author        : tiago felicio
 -- Description   :
--- Call Syntax   : 01_out_install.sql
+-- Call Syntax   : out_pre_install.pls
 -- Last Modified : 2020/03/12
 -- -----------------------------------------------------------------------------------
 
@@ -15,4 +15,4 @@ nologging online permanent
 extent management local autoallocate default
 compress segment space management auto;
 
-@/opt/oracle/scripts/setup/out/install.sql oracle metadata temp
+@./out/install.sql oracle metadata temp

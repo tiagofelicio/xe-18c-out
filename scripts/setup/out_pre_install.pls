@@ -1,8 +1,8 @@
 -- -----------------------------------------------------------------------------------
--- File Name     : out_pre_install.pls
+-- File Name     : out_install.pls
 -- Author        : tiago felicio
 -- Description   :
--- Call Syntax   : out_pre_install.pls
+-- Call Syntax   : out_install.pls
 -- Last Modified : 2020/03/12
 -- -----------------------------------------------------------------------------------
 

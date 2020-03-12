@@ -7,8 +7,7 @@
     - [Linux](#linux)
     - [Windows](#windows)
 1. [Reference](#3-reference)
-    - [Start](#start)
-1. [Uninstall](#3-uninstall)
+1. [Uninstall](#4-uninstall)
     - [Linux](#linux-1)
     - [Windows](#windows-1)
 1. [Notes](#4-notes)
@@ -67,10 +66,7 @@ oracle/database:18.4.0-xe
 
 ## 3. Reference
 
-#### Start
-```
-docker start oracle-18.4.0-xe
-```
+**Start:** `buildDockerImage.sh`
 
 ## 4. Uninstall
 

@@ -2,18 +2,18 @@
 
 <!-- TOC depthFrom:2 -->
 
-0. [Requirements](#1-requirements)
-0. [Install](#2-install)
+1. [Requirements](#1-requirements)
+1. [Install](#2-install)
     - [Linux](#linux)
     - [Windows](#windows)
-0. [Managing Container](#3-managing-container)
-0. [Uninstall](#3-uninstall)
+1. [Managing Container](#3-managing-container)
+1. [Uninstall](#3-uninstall)
     - [Linux](#linux-1)
     - [Windows](#windows-1)
-4. [Notes](#4-notes)
-5. [Run Container](#run-container)
-6. [Container Commands](#container-commands)
-7. [Troubleshooting]
+1. [Notes](#4-notes)
+1. [Run Container](#run-container)
+1. [Container Commands](#container-commands)
+1. [Troubleshooting]
 
 <!-- /TOC -->
 

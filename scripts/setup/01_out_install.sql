@@ -15,4 +15,4 @@ nologging online permanent
 extent management local autoallocate default
 compress segment space management auto;
 
-@@out/install.sql $ORACLE_PWD meta temp
+@@/out/install.sql $ORACLE_PWD meta temp

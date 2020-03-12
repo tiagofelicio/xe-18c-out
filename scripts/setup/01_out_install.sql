@@ -3,7 +3,7 @@
 -- Author        : tiago felicio
 -- Description   :
 -- Call Syntax   : 01_out_install.sql
--- Last Modified : 2020/01/14
+-- Last Modified : 2020/03/12
 -- -----------------------------------------------------------------------------------
 
 alter session set container = xepdb1;
@@ -15,4 +15,4 @@ nologging online permanent
 extent management local autoallocate default
 compress segment space management auto;
 
-@@/out/install.sql oracle meta temp
+@@./out/install.sql oracle meta temp

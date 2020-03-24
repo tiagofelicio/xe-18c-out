@@ -66,28 +66,18 @@ oracle/database:18.4.0-xe
 
 ## 3. Reference
 
-**Starting the container:**
 ```
+# start container
 docker start oracle-18.4.0-xe
-```
-**Stopping the container:**
-```
+# stop container
 docker stop oracle-18.4.0-xe
-```
-**Opening a terminal inside the container:**
-```
+# open bash in container
 docker exec -it oracle-18.4.0-xe bash
-```
-**Checking container status:**
-```
+# check container status
 docker ps -a -f "name=oracle-18.4.0-xe"
-```
-**Checking container resource usage statistics:**
-```
+# check container resource usage
 docker stats -a oracle-18.4.0-xe
-```
-**Checking container logs:**
-```
+# check container logs
 docker logs oracle-18.4.0-xe
 ```
 

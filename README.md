@@ -66,7 +66,7 @@ oracle/database:18.4.0-xe
 
 ## 3. Reference
 
-```
+```bash
 # start container
 docker start oracle-18.4.0-xe
 # stop container

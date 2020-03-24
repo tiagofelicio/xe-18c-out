@@ -15,4 +15,11 @@ nologging online permanent
 extent management local autoallocate default
 compress segment space management auto;
 
-@/opt/oracle/scripts/setup/out/samples/install.sql /opt/oracle/scripts/setup/out oracle metadata data temp
+create tablespace stage
+datafile '/opt/oracle/oradata/XE/XEPDB1/stage01.dbf' size 1g
+autoextend on next 1g maxsize 10g
+nologging online permanent
+extent management local autoallocate default
+compress segment space management auto;
+
+@/opt/oracle/scripts/setup/out/samples/install.sql /opt/oracle/scripts/setup/out oracle metadata stage data temp

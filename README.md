@@ -69,14 +69,19 @@ oracle/database:18.4.0-xe
 ```bash
 # start container
 docker start oracle-18.4.0-xe
+
 # stop container
 docker stop oracle-18.4.0-xe
+
 # open bash in container
 docker exec -it oracle-18.4.0-xe bash
+
 # check container status
 docker ps -a -f "name=oracle-18.4.0-xe"
+
 # check container resource usage
 docker stats -a oracle-18.4.0-xe
+
 # check container logs
 docker logs oracle-18.4.0-xe
 ```

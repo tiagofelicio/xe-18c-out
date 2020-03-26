@@ -2,16 +2,16 @@
 
 <!-- TOC depthFrom:2 -->
 
-1. [Requirements](#1-requirements)
-1. [Install](#2-install)
+- [Requirements](#1-requirements)
+- [Install](#2-install)
     - [Linux](#linux)
     - [Windows](#windows)
-1. [Reference](#3-reference)
-1. [Uninstall](#4-uninstall)
+- [Reference](#3-reference)
+- [Uninstall](#4-uninstall)
     - [Linux](#linux-1)
     - [Windows](#windows-1)
-1. [Notes](#5-notes)
-1. [Troubleshooting](6-troubleshooting)
+- [Notes](#5-notes)
+- [Troubleshooting](6-troubleshooting)
 
 <!-- /TOC -->
 
@@ -50,7 +50,7 @@ git clone https://github.com/tiagofelicio/xe-18c-out.git %USERPROFILE%\.oracle
 git clone https://github.com/tiagofelicio/out.git %USERPROFILE%\.oracle\scripts\setup\out
 git clone https://github.com/oracle/docker-images.git %USERPROFILE%\.oracle\docker-images
 cd /d %USERPROFILE%\.oracle\docker-images\OracleDatabase\SingleInstance\dockerfiles
-"D:\Program Files\Git\bin\bash.exe" --login -i -c "./buildDockerImage.sh -v 18.4.0 -x" & :: https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance
+"%PROGRAMFILES%\Git\bin\bash.exe" --login -i -c "./buildDockerImage.sh -v 18.4.0 -x" & :: https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance
 cd /d %USERPROFILE%\.oracle
 rmdir %USERPROFILE%\.oracle\docker-images /s /q
 docker create --name oracle-18.4.0-xe ^

@@ -2,16 +2,16 @@
 
 <!-- TOC depthFrom:2 -->
 
-- [Requirements](#1-requirements)
-- [Install](#2-install)
+- [Requirements](#requirements)
+- [Install](#install)
     - [Linux](#linux)
     - [Windows](#windows)
-- [Reference](#3-reference)
-- [Uninstall](#4-uninstall)
+- [Reference](#reference)
+- [Uninstall](#uninstall)
     - [Linux](#linux-1)
     - [Windows](#windows-1)
-- [Notes](#5-notes)
-- [Troubleshooting](6-troubleshooting)
+- [Notes](#notes)
+- [Troubleshooting](troubleshooting)
 
 <!-- /TOC -->
 

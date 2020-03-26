@@ -15,12 +15,12 @@
 
 <!-- /TOC -->
 
-## 1. Requirements
+## Requirements
 
 - [Docker](https://www.docker.com/products/docker-desktop)
 - [Git](https://git-scm.com/downloads)
 
-## 2. Install
+## Install
 
 #### Linux
 
@@ -64,7 +64,7 @@ docker create --name oracle-18.4.0-xe ^
 oracle/database:18.4.0-xe
 ```
 
-## 3. Reference
+## Reference
 
 ```bash
 # start container
@@ -86,7 +86,7 @@ docker stats -a oracle-18.4.0-xe
 docker logs oracle-18.4.0-xe
 ```
 
-## 4. Uninstall
+## Uninstall
 
 #### Linux
 
@@ -106,7 +106,7 @@ docker rmi $(docker images oraclelinux:7-slim -q)
 rmdir %USERPROFILE%\.oracle /s /q
 ```
 
-## 5. Notes
+## Notes
 
 Name | Required | Description 
 --- | --- | ---
@@ -117,4 +117,4 @@ Name | Required | Description
 `--network` | Optional | If other containers need to connect to this one (ex: [ORDS](https://github.com/martindsouza/docker-ords)) then they should all be on the same docker network.
 `oracle-xe:18c` | Required | This is the `name:tag` of the docker image that was built in the previous step
 
-## 6. Troubleshooting
+## Troubleshooting

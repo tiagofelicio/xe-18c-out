@@ -56,9 +56,9 @@ docker create --name oracle-18.4.0-xe ^
     -p 5500:5500 ^
     -e ORACLE_PWD=oracle ^
     -e ORACLE_CHARACTERSET=AL32UTF8 ^
-    -v %USERPROFILE%\.oracle\oradata:/opt/oracle/oradata ^
-    -v %USERPROFILE%\.oracle\scripts\setup:/opt/oracle/scripts/setup ^
-    -v %USERPROFILE%\.oracle\scripts\startup:/opt/oracle/scripts/startup ^
+    -v "%USERPROFILE%\.oracle\oradata":/opt/oracle/oradata ^
+    -v "%USERPROFILE%\.oracle\scripts\setup":/opt/oracle/scripts/setup ^
+    -v "%USERPROFILE%\.oracle\scripts\startup":/opt/oracle/scripts/startup ^
 oracle/database:18.4.0-xe
 ```
 
